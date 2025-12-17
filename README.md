@@ -30,9 +30,21 @@ The project consists of a browser-based training interface where users configure
 
 ## Resources
 
+* Host: device that send or receives traffic. 
+
 * TCP/IP addressing
-* Subnet mask
+* Network: grouping of hosts that require similar connectivity. Hosts on a network share same IP address space e.g. 192.168.1.x
+* Subnet mask: separate network from host part
+i.e.
+255.255.255.224 ~= /27 (CIDR Mask)
 * Default gateway
-* Routers 
-* Switches
+* Switches: facilitate communication within a network. Switched can have multiple ports and have the information of which host are on each port.
+* Routers: 
+ ....* facilitate communication between networks. It knows in which interface their devices are connected, which means it had an IP address that knows to which network its attached to.
+  ....* Hosts connected to a router interface must use the same subnet mask as that interface, while different router interfaces may use different masks because they belong to different network
+* Repeater: regenerate signal
 * OSI layers
+
+- Calcualtor of IP address given a mask: https://cidr.xyz/
+
+https://youtu.be/H7-NR3Q3BeI?si=wf484ZlvCfPmbQit
