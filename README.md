@@ -35,13 +35,16 @@ The project consists of a browser-based training interface where users configure
 * TCP/IP addressing
 * Network: grouping of hosts that require similar connectivity. Hosts on a network share same IP address space e.g. 192.168.1.x
 * Subnet mask: separate network from host part
-i.e.
-255.255.255.224 ~= /27 (CIDR Mask)
+    * i.e. 255.255.255.224 ~= /27 (CIDR Mask)
+    * choosing an adequate mask:  
 * Default gateway
 * Switches: facilitate communication within a network. Switched can have multiple ports and have the information of which host are on each port.
 * Routers: 
-    * facilitate communication between networks. It knows in which interface their devices are connected, which means it had an IP address that knows to which network its attached to.
+    * Facilitates communication between networks. It knows in which interface their devices are connected, which means it had an IP address that knows to which network its attached to.
     * Hosts connected to a router interface must use the same subnet mask as that interface, while different router interfaces may use different masks because they belong to different network
+    * Network routes: 
+        * default = 0.0.0.0 and gateway = Router's IP on the same network
+        * You can have specific routes for certain networks, but typically hosts use a default route to send everything to the router, which then makes more intelligent routing decisions.
 * Repeater: regenerate signal
 * OSI layers
 
