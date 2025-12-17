@@ -40,8 +40,8 @@ i.e.
 * Default gateway
 * Switches: facilitate communication within a network. Switched can have multiple ports and have the information of which host are on each port.
 * Routers: 
-    ....* facilitate communication between networks. It knows in which interface their devices are connected, which means it had an IP address that knows to which network its attached to.
-    ....* Hosts connected to a router interface must use the same subnet mask as that interface, while different router interfaces may use different masks because they belong to different network
+    * facilitate communication between networks. It knows in which interface their devices are connected, which means it had an IP address that knows to which network its attached to.
+    * Hosts connected to a router interface must use the same subnet mask as that interface, while different router interfaces may use different masks because they belong to different network
 * Repeater: regenerate signal
 * OSI layers
 
