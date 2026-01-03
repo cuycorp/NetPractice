@@ -51,7 +51,19 @@ The project consists of a browser-based training interface where users configure
     * Network routes: 
         * default = 0.0.0.0 and gateway = Router's IP on the same network
         * You can have specific routes for certain networks, but typically hosts use a default route to send everything to the router, which then makes more intelligent routing decisions.
+* Routing table
+Table in a router or table host that list all routes to a particular network
+    * Destination (left) : destination to which you want to send the package, it is a network (IP range)
+        * setting to default or 0.0.0.0/0 : make it available to the entire network or not specify it.
+        * Next Hop : is the IP address of the next router that you need to send the packages to reach the destination network.
+* Internet 
+* Reserved IP adresses
 
+| Range                        | Use      |
+|------------------------------|----------|
+| 10.0.0.0 - 10.255.255.255    | private IP (class A)     |
+| Row 2    | Data     |
+| Row 3    | Data     |
 * Repeater: regenerate signal
 * OSI layers
 
