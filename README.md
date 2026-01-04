@@ -59,11 +59,12 @@ Table in a router or table host that list all routes to a particular network
 * Internet 
 * Reserved IP adresses
 
-| Range                        | Use      |
-|------------------------------|----------|
-| 10.0.0.0 - 10.255.255.255    | private IP (class A)     |
-| Row 2    | Data     |
-| Row 3    | Data     |
+| Range                         | Use                      |
+|-------------------------------|--------------------------|
+| 10.0.0.0 - 10.255.255.255     | private IP (class A)     |
+| 172.16.0.0 – 172.31.255.255   | private IP               |
+| 192.168.0.0 – 192.168.255.255 | private IP               |
+
 * Repeater: regenerate signal
 * OSI layers
 
