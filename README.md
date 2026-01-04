@@ -72,7 +72,7 @@ Table in a router or table host that list all routes to a particular network
 
 https://youtu.be/H7-NR3Q3BeI?si=wf484ZlvCfPmbQit
 
-
+https://github.com/caroldaniel/42sp-cursus-netpractice?tab=readme-ov-file 
 ## Theory b level
 
 1. Level 1
