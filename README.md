@@ -23,13 +23,10 @@ The project consists of a browser-based training interface where users configure
 
 ### Running the Training Interface
 
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-
+1. Clone the repository from vogsphere
+2. Follow instruction inside the subject to launch
 
 ## Resources
-
 * Host: device that send or receives traffic. 
 
 * TCP/IP addressing
@@ -66,14 +63,16 @@ Table in a router or table host that list all routes to a particular network
 | 192.168.0.0 – 192.168.255.255 | private IP               |
 
 * Repeater: regenerate signal
-* OSI layers
+* OSI MOdel:  The OSI (Open Systems Interconnection) model is a seven-layer framework that standardizes how different network systems communicate, with each layer handling specific functions from physical transmission (Layer 1) up to application-level interactions (Layer 7). Data moves down through the layers on the sending device (being encapsulated at each step) and up through the layers on the receiving device (being de-encapsulated), allowing different technologies and protocols to work together seamlessl
 
 - Calcualtor of IP address given a mask: https://cidr.xyz/
 
-https://youtu.be/H7-NR3Q3BeI?si=wf484ZlvCfPmbQit
+Networking theory
+* https://youtu.be/H7-NR3Q3BeI?si=wf484ZlvCfPmbQit
 
-https://github.com/caroldaniel/42sp-cursus-netpractice?tab=readme-ov-file 
-## Theory b level
+* https://github.com/caroldaniel/42sp-cursus-netpractice?tab=readme-ov-file 
+
+## Theory by level
 
 1. Level 1
     * Mask * IP --> Subnet
@@ -86,5 +85,4 @@ https://github.com/caroldaniel/42sp-cursus-netpractice?tab=readme-ov-file
     * Router
 5. Level 5
     * Host-specific routing: rule to send information that is not going inside the network
-6. Level 6
-    * 
+
