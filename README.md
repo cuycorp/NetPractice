@@ -1,6 +1,6 @@
 # NetPractice
 
-*This project has been created as part of the 42 curriculum by <mcamaren>.*
+*This project has been created as part of the 42 curriculum by mcamaren.* 
 
 # Networking Training Project
 
